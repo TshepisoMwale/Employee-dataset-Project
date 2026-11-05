@@ -15,6 +15,14 @@ The dataset contained several data quality issues that required cleaning and tra
 The data cleaning process involved using Excel and SQL to improve the dataset's consistency and usability. Missing values were identified and addressed using Excel's Find and Replace functionality. The inconsistent date values were corrected using SQL queries, including ALTER TABLE and UPDATE, to ensure the date column followed a consistent format. The Text to Columns function in Excel was used to separate the combined Department and Region data into individual columns.
 These cleaning and transformation steps produced a more structured and consistent dataset suitable for further analysis using SQL and Tableau.
 
+Performed data cleaning and preprocessing using Python (Pandas) in Jupyter Notebook. The following tasks were completed:
+* Removed the unnecessary Status column, as it was not relevant to the analysis.
+* Standardised the Phone Number column to ensure consistent formatting.
+* Split the Department-Region column into two separate columns: Department and Region.
+* Handled missing values in the Age column by replacing null and NaN values(missing values) with blank spaces.
+
+Tools Used: Python, Pandas, Jupyter Notebook.
+
 3) Key Findings
    
 The analysis identified the following characteristics among employees with an “Excellent” performance score:
